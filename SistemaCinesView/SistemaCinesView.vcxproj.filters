@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmPrincipal.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmPersonal.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmReclamos.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmProductos.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmButacas.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmSalas.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmProveedor.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmTipodeSocio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmBeneficios.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmAnuncio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmcine.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmPelicula.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmPromocion.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmClientes.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEmpresaAnuncio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmDistribuidor.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmLugaresdeAtencion.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNormasCine.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevaResena.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmPeliculaDetalle.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmPropietario.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmResena.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoCine.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevaPromocion.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoAnuncio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarCliente.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarProveedor.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoCliente.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoProveedor.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoBeneficio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarBeneficio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoTipodeSocio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarTipodeSocio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevaPelicula.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoInsumo.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarResena.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoDistribuidor.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarDistribuidor.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoLugarAtencion.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarLugarAtencion.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarEmpresaAnuncio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevaEmpresaAnuncio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevaNormaCine.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarNormaCine.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarCine.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmeditarPelicula.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarAnuncio.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarPromocion.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmLogin.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmCatalogoPeliculas.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmCompraEntrada.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmDetallesComprobantes.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmButacasEntradas.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmComprobante.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmCatalogoComidas.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmReporteVentasPeliculas.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmReporteVentasComidas.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmCompraProyeccion.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmInterfazCliente.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmInterfazPelicula.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmMetodosPago.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmSeleccionarButacas.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmVerDetallePelicula.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmCompraEntradaCliente.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmBuscarComida.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmComprarComida.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoProducto.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarProducto.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmListadePersonal.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmNuevoPersonal.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmEditarPersonal.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frmReportePersonal.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="frmPrincipal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmPersonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmReclamos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmProductos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmButacas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmSalas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmProveedor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmTipodeSocio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmBeneficios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmAnuncio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmcine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmPelicula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmPromocion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmClientes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEmpresaAnuncio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmDistribuidor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmLugaresdeAtencion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNormasCine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevaResena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmPeliculaDetalle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmPropietario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmResena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoInsumo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoCine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevaPromocion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoAnuncio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevaPelicula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarCliente.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarProveedor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoCliente.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoProveedor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoBeneficio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarBeneficio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoTipodeSocio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarTipodeSocio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarResena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoDistribuidor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarDistribuidor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoLugarAtencion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarLugarAtencion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarEmpresaAnuncio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevaEmpresaAnuncio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevaNormaCine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarNormaCine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarCine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmeditarPelicula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarAnuncio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarPromocion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmLogin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmCatalogoPeliculas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmCompraEntrada.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmDetallesComprobantes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmButacasEntradas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmComprobante.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmCatalogoComidas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmReporteVentasPeliculas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmReporteVentasComidas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmCompraProyeccion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmInterfazCliente.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmInterfazPelicula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmMetodosPago.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmSeleccionarButacas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmVerDetallePelicula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmCompraEntradaCliente.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmBuscarComida.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmComprarComida.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoProducto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarProducto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmListadePersonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmNuevoPersonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmEditarPersonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frmReportePersonal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmProveedor.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipodeSocio.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBeneficios.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnuncio.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcine.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPelicula.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPromocion.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpresaAnuncio.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDistribuidor.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLugaresdeAtencion.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNormasCine.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaResena.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPeliculaDetalle.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPropietario.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResena.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompraProyeccion.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInterfazCliente.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInterfazPelicula.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMetodosPago.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeleccionarButacas.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerDetallePelicula.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarComida.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComprarComida.resx">
+      <Filter>Header Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

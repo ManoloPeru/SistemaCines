@@ -1,0 +1,6 @@
+1;papas Chicas;02/01/2022;02/01/2022;comida;54;10
+2;papas Grandes;02/10/2022;02/10/2022;comida;32;15
+3;hamburguesa pequeña;02/05/2022;02/05/2022;comida;12;15
+4;hamburguesa grande;02/02/2022;02/02/2022;comida;123;25
+5;gaseosa mediana;02/11/2022;02/11/2022;bebida;521;10
+6;gaseosa grande;02/11/2022;02/11/2022;bebida;521;15

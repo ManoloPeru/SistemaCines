@@ -1,0 +1,2 @@
+#include "frmNuevoCine.h"
+

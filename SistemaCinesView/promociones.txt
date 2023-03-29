@@ -1,0 +1,4 @@
+1;01/01/2022;02/02/2023;restriccion1;tipoPromocion
+2;01/01/2022;02/02/2023;restriccion1;tipoPromocion
+1;01/01/2022;02/02/2023;restriccion1;tipoPromocion
+2;01/01/2022;02/02/2023;restriccion1;tipoPromocion

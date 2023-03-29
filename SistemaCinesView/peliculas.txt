@@ -1,0 +1,6 @@
+1;Pelicula1;genero1;10/10/22;restriccion;sinopsis;1:20:00
+2;Pelicula2;genero2;10/10/22;restriccion;Pelicula Chevere;1:15:00
+3;Pelicula3;genero4;10/10/22;restriccion3;Mala Peli;1:25:00
+4;Pelicula4;genero5;10/10/22;restriccion escala 9;sinopsis;1:30:00
+5;Pelicula5;Drama;05/10/2022;Solo para mayores Crack;Más aburrida que ver una pared;00:01:00
+6;Pelicula6;genero4;10/10/2022;restriccion6;sinopsis6;1:00:00

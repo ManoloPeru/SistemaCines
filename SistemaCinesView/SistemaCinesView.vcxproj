@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{71C15505-76BB-4141-B978-32E02411981D}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>SistemaCinesView</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="frmAnuncio.cpp" />
+    <ClCompile Include="frmBeneficios.cpp" />
+    <ClCompile Include="frmBuscarComida.cpp" />
+    <ClCompile Include="frmButacas.cpp" />
+    <ClCompile Include="frmButacasEntradas.cpp" />
+    <ClCompile Include="frmCatalogoComidas.cpp" />
+    <ClCompile Include="frmCatalogoPeliculas.cpp" />
+    <ClCompile Include="frmcine.cpp" />
+    <ClCompile Include="frmClientes.cpp" />
+    <ClCompile Include="frmCompraEntrada.cpp" />
+    <ClCompile Include="frmCompraEntradaCliente.cpp" />
+    <ClCompile Include="frmCompraProyeccion.cpp" />
+    <ClCompile Include="frmComprarComida.cpp" />
+    <ClCompile Include="frmComprobante.cpp" />
+    <ClCompile Include="frmDetallesComprobantes.cpp" />
+    <ClCompile Include="frmDistribuidor.cpp" />
+    <ClCompile Include="frmEditarAnuncio.cpp" />
+    <ClCompile Include="frmEditarBeneficio.cpp" />
+    <ClCompile Include="frmEditarCine.cpp" />
+    <ClCompile Include="frmEditarCliente.cpp" />
+    <ClCompile Include="frmEditarDistribuidor.cpp" />
+    <ClCompile Include="frmEditarEmpresaAnuncio.cpp" />
+    <ClCompile Include="frmEditarLugarAtencion.cpp" />
+    <ClCompile Include="frmEditarNormaCine.cpp" />
+    <ClCompile Include="frmeditarPelicula.cpp" />
+    <ClCompile Include="frmEditarPersonal.cpp" />
+    <ClCompile Include="frmEditarProducto.cpp" />
+    <ClCompile Include="frmEditarPromocion.cpp" />
+    <ClCompile Include="frmEditarProveedor.cpp" />
+    <ClCompile Include="frmEditarResena.cpp" />
+    <ClCompile Include="frmEditarTipodeSocio.cpp" />
+    <ClCompile Include="frmEmpresaAnuncio.cpp" />
+    <ClCompile Include="frmInterfazCliente.cpp" />
+    <ClCompile Include="frmInterfazPelicula.cpp" />
+    <ClCompile Include="frmListadePersonal.cpp" />
+    <ClCompile Include="frmLogin.cpp" />
+    <ClCompile Include="frmLugaresdeAtencion.cpp" />
+    <ClCompile Include="frmMetodosPago.cpp" />
+    <ClCompile Include="frmNormasCine.cpp" />
+    <ClCompile Include="frmNuevaEmpresaAnuncio.cpp" />
+    <ClCompile Include="frmNuevaNormaCine.cpp" />
+    <ClCompile Include="frmNuevaPelicula.cpp" />
+    <ClCompile Include="frmNuevaPromocion.cpp" />
+    <ClCompile Include="frmNuevaResena.cpp" />
+    <ClCompile Include="frmNuevoAnuncio.cpp" />
+    <ClCompile Include="frmNuevoBeneficio.cpp" />
+    <ClCompile Include="frmNuevoCine.cpp" />
+    <ClCompile Include="frmNuevoCliente.cpp" />
+    <ClCompile Include="frmNuevoDistribuidor.cpp" />
+    <ClCompile Include="frmNuevoInsumo.cpp" />
+    <ClCompile Include="frmNuevoLugarAtencion.cpp" />
+    <ClCompile Include="frmNuevoPersonal.cpp" />
+    <ClCompile Include="frmNuevoProducto.cpp" />
+    <ClCompile Include="frmNuevoProveedor.cpp" />
+    <ClCompile Include="frmNuevoTipodeSocio.cpp" />
+    <ClCompile Include="frmPelicula.cpp" />
+    <ClCompile Include="frmPeliculaDetalle.cpp" />
+    <ClCompile Include="frmPersonal.cpp" />
+    <ClCompile Include="frmPrincipal.cpp" />
+    <ClCompile Include="frmProductos.cpp" />
+    <ClCompile Include="frmPromocion.cpp" />
+    <ClCompile Include="frmPropietario.cpp" />
+    <ClCompile Include="frmProveedor.cpp" />
+    <ClCompile Include="frmReclamos.cpp" />
+    <ClCompile Include="frmReportePersonal.cpp" />
+    <ClCompile Include="frmReporteVentasComidas.cpp" />
+    <ClCompile Include="frmReporteVentasPeliculas.cpp" />
+    <ClCompile Include="frmResena.cpp" />
+    <ClCompile Include="frmSalas.cpp" />
+    <ClCompile Include="frmSeleccionarButacas.cpp" />
+    <ClCompile Include="frmTipodeSocio.cpp" />
+    <ClCompile Include="frmVerDetallePelicula.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="frmAnuncio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmBeneficios.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmBuscarComida.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmButacas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmButacasEntradas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmCatalogoComidas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmCatalogoPeliculas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmcine.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmClientes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmCompraEntrada.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmCompraEntradaCliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmCompraProyeccion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmComprarComida.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmComprobante.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmDetallesComprobantes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmDistribuidor.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarAnuncio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarBeneficio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarCine.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarCliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarDistribuidor.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarEmpresaAnuncio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarLugarAtencion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarNormaCine.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmeditarPelicula.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarPersonal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarProducto.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarPromocion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarProveedor.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarResena.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEditarTipodeSocio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmEmpresaAnuncio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmInterfazCliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmInterfazPelicula.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmListadePersonal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmLogin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmLugaresdeAtencion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmMetodosPago.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNormasCine.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaEmpresaAnuncio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaNormaCine.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaPelicula.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaPromocion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevaResena.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoAnuncio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoBeneficio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoCine.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoCliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoDistribuidor.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoInsumo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoLugarAtencion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoPersonal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoProducto.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoProveedor.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmNuevoTipodeSocio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPelicula.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPeliculaDetalle.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPersonal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPrincipal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmProductos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPromocion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmPropietario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmProveedor.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmReclamos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmReportePersonal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmReporteVentasComidas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmReporteVentasPeliculas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmResena.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmSalas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmSeleccionarButacas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmTipodeSocio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="frmVerDetallePelicula.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAnuncio.resx" />
+    <EmbeddedResource Include="frmBeneficios.resx">
+      <DeploymentContent>true</DeploymentContent>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarComida.resx" />
+    <EmbeddedResource Include="frmButacas.resx">
+      <DependentUpon>frmButacas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmButacasEntradas.resx">
+      <DependentUpon>frmButacasEntradas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCatalogoComidas.resx">
+      <DependentUpon>frmCatalogoComidas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCatalogoPeliculas.resx">
+      <DependentUpon>frmCatalogoPeliculas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcine.resx" />
+    <EmbeddedResource Include="frmClientes.resx">
+      <DependentUpon>frmClientes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompraEntrada.resx">
+      <DependentUpon>frmCompraEntrada.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompraEntradaCliente.resx">
+      <DependentUpon>frmCompraEntradaCliente.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompraProyeccion.resx" />
+    <EmbeddedResource Include="frmComprarComida.resx" />
+    <EmbeddedResource Include="frmComprobante.resx">
+      <DependentUpon>frmComprobante.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetallesComprobantes.resx">
+      <DependentUpon>frmDetallesComprobantes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDistribuidor.resx" />
+    <EmbeddedResource Include="frmEditarAnuncio.resx">
+      <DependentUpon>frmEditarAnuncio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarBeneficio.resx">
+      <DependentUpon>frmEditarBeneficio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarCine.resx">
+      <DependentUpon>frmEditarCine.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarCliente.resx">
+      <DependentUpon>frmEditarCliente.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarDistribuidor.resx">
+      <DependentUpon>frmEditarDistribuidor.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarEmpresaAnuncio.resx">
+      <DependentUpon>frmEditarEmpresaAnuncio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarLugarAtencion.resx">
+      <DependentUpon>frmEditarLugarAtencion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarNormaCine.resx">
+      <DependentUpon>frmEditarNormaCine.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmeditarPelicula.resx">
+      <DependentUpon>frmeditarPelicula.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarProducto.resx">
+      <DependentUpon>frmEditarProducto.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarPromocion.resx">
+      <DependentUpon>frmEditarPromocion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarProveedor.resx">
+      <DependentUpon>frmEditarProveedor.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarResena.resx">
+      <DependentUpon>frmEditarResena.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarTipodeSocio.resx">
+      <DependentUpon>frmEditarTipodeSocio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpresaAnuncio.resx" />
+    <EmbeddedResource Include="frmInterfazCliente.resx" />
+    <EmbeddedResource Include="frmInterfazPelicula.resx" />
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLugaresdeAtencion.resx" />
+    <EmbeddedResource Include="frmMetodosPago.resx" />
+    <EmbeddedResource Include="frmNormasCine.resx" />
+    <EmbeddedResource Include="frmNuevaEmpresaAnuncio.resx">
+      <DependentUpon>frmNuevaEmpresaAnuncio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaNormaCine.resx">
+      <DependentUpon>frmNuevaNormaCine.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaPelicula.resx">
+      <DependentUpon>frmNuevaPelicula.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaPromocion.resx">
+      <DependentUpon>frmNuevaPromocion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaResena.resx" />
+    <EmbeddedResource Include="frmNuevoAnuncio.resx">
+      <DependentUpon>frmNuevoAnuncio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoBeneficio.resx">
+      <DependentUpon>frmNuevoBeneficio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoCine.resx">
+      <DependentUpon>frmNuevoCine.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoCliente.resx">
+      <DependentUpon>frmNuevoCliente.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoDistribuidor.resx">
+      <DependentUpon>frmNuevoDistribuidor.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoLugarAtencion.resx">
+      <DependentUpon>frmNuevoLugarAtencion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoProducto.resx">
+      <DependentUpon>frmNuevoProducto.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoProveedor.resx">
+      <DependentUpon>frmNuevoProveedor.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevoTipodeSocio.resx">
+      <DependentUpon>frmNuevoTipodeSocio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPelicula.resx" />
+    <EmbeddedResource Include="frmPeliculaDetalle.resx" />
+    <EmbeddedResource Include="frmPersonal.resx">
+      <DependentUpon>frmPersonal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductos.resx">
+      <DependentUpon>frmProductos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPromocion.resx" />
+    <EmbeddedResource Include="frmPropietario.resx" />
+    <EmbeddedResource Include="frmProveedor.resx" />
+    <EmbeddedResource Include="frmReclamos.resx">
+      <DependentUpon>frmReclamos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteVentasComidas.resx">
+      <DependentUpon>frmReporteVentasComidas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteVentasPeliculas.resx">
+      <DependentUpon>frmReporteVentasPeliculas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResena.resx" />
+    <EmbeddedResource Include="frmSalas.resx">
+      <DependentUpon>frmSalas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeleccionarButacas.resx" />
+    <EmbeddedResource Include="frmTipodeSocio.resx" />
+    <EmbeddedResource Include="frmVerDetallePelicula.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaCinesController\SistemaCinesController.vcxproj">
+      <Project>{c9ab31b2-66e0-4f0d-a275-8235d124d998}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SistemaCines\SistemaCines.vcxproj">
+      <Project>{190b633b-b419-4dcd-9b84-3f8528399035}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

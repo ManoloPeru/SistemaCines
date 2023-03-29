@@ -1,0 +1,7 @@
+1/11/2022 21:40:13;Juan Diego Guevara;72666761;Yape;3;hamburguesa grande;75
+3/11/2022 18:18:44;Juan G;1241353512;Tarjeta;0;papas Chicas,papas Chicas;0
+3/11/2022 18:20:36;imfof;4245235;Tarjeta;3;hamburguesa pequeña,papas Grandes,papas Chicas,;45
+3/11/2022 18:23:17;Juan G;331241412;Tarjeta;1;papas Chicas,papas Chicas;-129084400
+3/11/2022 18:26:46;Juancito;72666;Efectivo;3;papas Grandes;45
+3/11/2022 19:05:04;pepe;79865423;Efectivo;1;hamburguesa pequeña;15
+3/11/2022 19:07:45;Jose Pepepe;78965878744212445;Tarjeta;1;papas Chicas,papas Chicas;10

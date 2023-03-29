@@ -1,0 +1,6 @@
+1;1;Pelicula1;20;Lima
+2;2;Pelicula2;23;Lima
+3;3;Pelicula3;21;Lima
+4;4;Pelicula4;20;Arequipa
+5;5;Pelicula5;22;Arequipa
+6;6;Pelicula6;22;Arequipa

@@ -1,0 +1,5 @@
+1293;Empresa;detalle1;plan1
+1123;Empresa;detalle2;plan2
+1257;Empresa;detalle3;plan3
+1012;legal;ya veras;plansito aaaaa
+4785;Empresa;detalle5;plan5

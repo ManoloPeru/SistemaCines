@@ -1,0 +1,4 @@
+1;Lima;Lima;Lince;Av. Arequipa 2020;11:30am;12pm
+3;Arequipa;prov;distri;nose;8am;10pm
+4;Ica;prov;distri;dirección;8am;10pm
+4;Ica;asas;asas;asasa;asa;asas

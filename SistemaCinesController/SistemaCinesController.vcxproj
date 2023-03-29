@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{C9AB31B2-66E0-4F0D-A275-8235D124D998}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>SistemaCinesController</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaCines\SistemaCines.vcxproj">
+      <Project>{190b633b-b419-4dcd-9b84-3f8528399035}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnuncioController.h" />
+    <ClInclude Include="AnuncioController2.h" />
+    <ClInclude Include="BeneficiosController.h" />
+    <ClInclude Include="BeneficiosController2.h" />
+    <ClInclude Include="ButacasController.h" />
+    <ClInclude Include="ButacasController3.h" />
+    <ClInclude Include="CatalogoPeliculaController.h" />
+    <ClInclude Include="CinesController.h" />
+    <ClInclude Include="CinesController2.h" />
+    <ClInclude Include="ClienteController.h" />
+    <ClInclude Include="ClienteController2.h" />
+    <ClInclude Include="ComprobanteController.h" />
+    <ClInclude Include="ComprobanteController3.h" />
+    <ClInclude Include="DetallePedidoController.h" />
+    <ClInclude Include="DistribuidorController.h" />
+    <ClInclude Include="DistribuidorController2.h" />
+    <ClInclude Include="EmpresaAnuncioController.h" />
+    <ClInclude Include="EmpresaAnuncioController2.h" />
+    <ClInclude Include="LugaresdeAtencionController.h" />
+    <ClInclude Include="LugaresdeAtencionController2.h" />
+    <ClInclude Include="NormasCineController.h" />
+    <ClInclude Include="NormasCineController2.h" />
+    <ClInclude Include="PeliculasController.h" />
+    <ClInclude Include="PeliculasController2.h" />
+    <ClInclude Include="PersonalController.h" />
+    <ClInclude Include="ProductosController.h" />
+    <ClInclude Include="ProductosController2.h" />
+    <ClInclude Include="PromocionController.h" />
+    <ClInclude Include="PromocionController2.h" />
+    <ClInclude Include="PropietarioController.h" />
+    <ClInclude Include="PropietarioController2.h" />
+    <ClInclude Include="ProveedorController.h" />
+    <ClInclude Include="ProveedorController2.h" />
+    <ClInclude Include="ProyeccionController.h" />
+    <ClInclude Include="ProyeccionesController.h" />
+    <ClInclude Include="ResenasController.h" />
+    <ClInclude Include="ResenasController2.h" />
+    <ClInclude Include="SalasController.h" />
+    <ClInclude Include="SalasController2.h" />
+    <ClInclude Include="TipodeSocioController.h" />
+    <ClInclude Include="TipodeSocioController2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnuncioController.cpp" />
+    <ClCompile Include="AnuncioController2.cpp" />
+    <ClCompile Include="BeneficiosController.cpp" />
+    <ClCompile Include="BeneficiosController2.cpp" />
+    <ClCompile Include="ButacasController.cpp" />
+    <ClCompile Include="ButacasController3.cpp" />
+    <ClCompile Include="CatalogoPeliculaController.cpp" />
+    <ClCompile Include="CinesController.cpp" />
+    <ClCompile Include="CinesController2.cpp" />
+    <ClCompile Include="ClienteController.cpp" />
+    <ClCompile Include="ClienteController2.cpp" />
+    <ClCompile Include="ComprobanteController.cpp" />
+    <ClCompile Include="ComprobanteController3.cpp" />
+    <ClCompile Include="DetallePedidoController.cpp" />
+    <ClCompile Include="DistribuidorController.cpp" />
+    <ClCompile Include="DistribuidorController2.cpp" />
+    <ClCompile Include="EmpresaAnuncioController.cpp" />
+    <ClCompile Include="EmpresaAnuncioController2.cpp" />
+    <ClCompile Include="LugaresdeAtencionController.cpp" />
+    <ClCompile Include="LugaresdeAtencionController2.cpp" />
+    <ClCompile Include="NormasCineController.cpp" />
+    <ClCompile Include="NormasCineController2.cpp" />
+    <ClCompile Include="PeliculasController.cpp" />
+    <ClCompile Include="PeliculasController2.cpp" />
+    <ClCompile Include="PersonalController.cpp" />
+    <ClCompile Include="ProductosController.cpp" />
+    <ClCompile Include="ProductosController2.cpp" />
+    <ClCompile Include="PromocionController.cpp" />
+    <ClCompile Include="PromocionController2.cpp" />
+    <ClCompile Include="PropietarioController.cpp" />
+    <ClCompile Include="PropietarioController2.cpp" />
+    <ClCompile Include="ProveedorController.cpp" />
+    <ClCompile Include="ProveedorController2.cpp" />
+    <ClCompile Include="ProyeccionController.cpp" />
+    <ClCompile Include="ProyeccionesController.cpp" />
+    <ClCompile Include="ResenasController.cpp" />
+    <ClCompile Include="ResenasController2.cpp" />
+    <ClCompile Include="SalasController.cpp" />
+    <ClCompile Include="SalasController2.cpp" />
+    <ClCompile Include="TipodeSocioController.cpp" />
+    <ClCompile Include="TipodeSocioController2.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

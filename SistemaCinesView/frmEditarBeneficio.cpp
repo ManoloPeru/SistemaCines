@@ -1,0 +1,2 @@
+#include "frmEditarBeneficio.h"
+

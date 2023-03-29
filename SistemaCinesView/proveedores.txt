@@ -1,0 +1,5 @@
+3;Raices6;001234567;Semilla Durazno;931616975;jose@gmail.com 
+4;ComunidadLacteos;000123456;Leche;998641374;anitra@gmail.com
+5;ComunidadLacteos;000012345;Leche;931981374;a123@gmail.com 
+1;yoshiproducts;1235678912;carnes;999999999;am@gmail.coom
+2;carnesfrescas;956328452;carne de res;931631374;carne@gmail.com
