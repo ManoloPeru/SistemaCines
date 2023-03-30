@@ -195,6 +195,7 @@ namespace SistemaCinesView {
 		}
 		else if (usuario == "admin") {
 			if (contrasena == "admin") {
+				MessageBox::Show("Bienvenido...!");
 				frmPrincipal^ ventanaPrincipal = gcnew frmPrincipal();
 				ventanaPrincipal->ShowDialog();
 			}
